@@ -1,0 +1,222 @@
+ @import "2.About.css";
+/*@import "3.Project.css";
+@import "4.Resume.css";
+@import "5.Contact.css"; */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic ;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-image: url(2.Bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    align-items: center;
+}
+
+
+.main
+{
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* padding-bottom: 3px; */
+    /* padding-top: 2px; */
+    top: 0;
+    overflow: hidden;
+}
+
+.page
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+iframe
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+.Home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.content
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.main ul
+{
+    float: right;
+    list-style-type: none;
+    margin: 20px 20px 0 0;
+    
+}
+
+.main ul li 
+{
+    display: inline-block;
+    
+}
+
+.main ul li a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 1px solid transparent;
+    transition: 0.6s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-bottom: 20px;
+}
+
+ul li a:hover
+{
+    background-color: white;
+    color: #000;
+}
+
+ul li.active a 
+{
+    background-color: #ffffff;
+    color: black;
+}
+
+.logo1 
+{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;    
+}
+
+.center
+{
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
+.button
+{
+    max-width: 70vw;
+    max-height: 15vh;
+    margin: 10vh auto;
+    text-align: left;
+
+}
+
+.btn0,.btn1
+{
+    border: 1px solid white ;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    display: inline-block;
+ 
+}
+
+.btn0:hover,.btn1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:600px)
+{
+    .button
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn1,.btn0
+    {
+        margin: 10px 10px;
+        width: 100px;
+        display: block;
+    }    
+}
+
+@media (max-width:370px)
+{
+    .main ul li a
+    {
+        padding-left: 3px;   
+    }
+}
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #e7dede;
+    padding: 20px;
+    margin-left: 25%;
+    width: 50%;
+    
+  }
+
+.contact{
+    margin-left: 40%;
+    color: #000;
+ 
+}
+
+.Contact{
+    font-weight: bold;
+}
+
+ 
